@@ -7,10 +7,9 @@ Replication of Meta's [Active Reading](https://arxiv.org/abs/2508.09494) fine-tu
 - `active_reading.ipynb` — initial exploration notebook with visualizations
 
 ## Setup
-
+make a .env file and add HF_TOKEN, OPENAI_API_KEY, WANDB_API_KEY
 ```bash
 pip install -r requirements.txt
-cp .env.example .env  # add HF_TOKEN, OPENAI_API_KEY, WANDB_API_KEY
 ```
 
 ## Training
