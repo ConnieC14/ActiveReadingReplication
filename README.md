@@ -37,7 +37,7 @@ Drop `--adapter` to evaluate the base model as a baseline.
 |> Active Reading (task-agnostic) | 63.33 |
 |> Active Reading (task-specific) | 66.25 |
 |> paraphrase + synth QA + AR | 66.66 |
-| **Llama 3.2 1B Base | 1.5 |
+| **Llama 3.2 1B Base | 1.0 |
 | **Llama 3.2 1B AR (13105 train samples) | 2.0 |
 
 _** only tested on 200 questions_
