@@ -1,5 +1,5 @@
 # Active Reading Replication
-Replication of Meta's [Active Reading](https://arxiv.org/abs/2508.09494) fine-tuning approach for improving factual recall in small language models. Trains different models on synthetically generated study-strategy data from the facebook/meta-active-reading dataset and evaluates on closed-book factual accuracy on SimpleWikiQA using OpenAI's SimpleQA greading protocol. Our initial tests check whether this holds at 1B scale, but can be scaled further.
+Replication of Meta's [Active Reading](https://arxiv.org/abs/2508.09494) LoRa adapted fine-tuning approach for improving factual recall in small language models. Trains different models on synthetically generated study-strategy data from the facebook/meta-active-reading dataset and evaluates on closed-book factual accuracy on SimpleWikiQA using OpenAI's SimpleQA greading protocol. Our initial tests check whether this holds at 1B scale, but can be scaled further.
 
 ## What's here
 - `active_reading_training.py` — fine-tunes a base model with LoRA on `facebook/meta-active-reading`
