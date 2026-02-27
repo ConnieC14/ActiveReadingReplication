@@ -4,22 +4,21 @@ Active Reading Fine-tuning Replication
 dataset: https://huggingface.co/datasets/facebook/meta-active-reading
 model: https://huggingface.co/facebook/meta-wiki-expert/tree/main
 
-Target: 10-20 Wikipedia articles, 5,000 training steps
+Target: 2,000 training steps
 Model:  meta-llama/Llama-3.2-1B  (QLoRA 4-bit)
 GPU:    RTX 3060 (12 GB) locally  |  A100/H100 in cloud
 
 Usage:
-# Local RTX 3060
 python train_active_reading.py --device local
 
-# Cloud (A100/H100) — unlocks larger batch, more precision
-python train_active_reading.py --device cloud
+# If you have a better GPU (A100/H100)
+python train_active_reading.py --device hpc
 
 # Resume from checkpoint
-python train_active_reading.py --resume_from_checkpoint ./active-reading-medium/checkpoint-2000
+python train_active_reading.py --resume_from_checkpoint dir/to/checkpoint
 
 
-Example (5 steps, 5 examples)
+# Mini Test Run
 python active_reading_training.py --smoke_test
 """
 import argparse
@@ -53,15 +52,21 @@ wandb.login(key=WANDB_API_KEY)
 parser = argparse.ArgumentParser()
 parser.add_argument(
     "--device",
-    choices=["local", "cloud"],
+    choices=["local", "hpc"],
     default="local",
-    help="Hardware profile. 'local'=RTX 3060, 'cloud'=A100/H100",
+    help="Hardware profile. 'local'=RTX 3060, 'hpc'=A100/H100",
 )
 parser.add_argument(
     "--resume_from_checkpoint",
     type=str,
     default=None,
     help="Path to a trainer checkpoint directory to resume from",
+)
+parser.add_argument(
+    "--training_steps",
+    type=int,
+    default=2000,
+    help="Total training steps (default: 5000, set lower for quick tests)",
 )
 parser.add_argument(
     "--smoke_test",
@@ -131,7 +136,7 @@ else:
 # Expert Domain Setting Hyperparameters
 BASE_MODEL    = args.base_model
 LEARNING_RATE = 1e-5
-MAX_STEPS     = 5 if args.smoke_test else 5000
+MAX_STEPS     = 5 if args.smoke_test else args.training_steps
 LORA_R        = 16
 LORA_ALPHA    = 32
 LORA_DROPOUT  = 0.05
