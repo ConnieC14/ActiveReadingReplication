@@ -21,7 +21,7 @@ python active_reading_training.py --device local
 ## Eval
 
 ```bash
-python eval_simpleqa.py --adapter ./ActiveReading/<run-name>/checkpoint-XXXX --n 200 --output results.json
+python active_reading_eval_simple_qa.py --adapter ./ActiveReading/<run-name>/checkpoint-XXXX --n 200 --output results.json
 ```
 
 Drop `--adapter` to evaluate the base model as a baseline.
