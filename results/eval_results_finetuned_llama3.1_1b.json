@@ -1,0 +1,1219 @@
+{
+  "model": "active-reading-llama-1b-20260225-1558/checkpoint-3000",
+  "base_model": "meta-llama/Llama-3.2-1B",
+  "grader_model": "gpt-4.1",
+  "n_questions": 200,
+  "counts": {
+    "CORRECT": 4,
+    "INCORRECT": 83,
+    "NOT_ATTEMPTED": 113
+  },
+  "pct_correct": 2.0,
+  "pct_incorrect": 41.5,
+  "pct_not_attempted": 56.5,
+  "accuracy_given_attempted": 0.046,
+  "f1": 0.028,
+  "completed": "2026-02-27T02:31:45.167253",
+  "results": [
+    {
+      "question": "In which city of Pakistan was Muhammad Rafiq Tarar, a Pakistani politician, born?",
+      "target": "Mandi Bahauddin, Punjab",
+      "predicted": "Answer: Lahore",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "How old was Aniol Serrasolses when he kayaked for the first time down the largest glacial waterfall ever recorded in Norway?",
+      "target": "32",
+      "predicted": "12 years old. How old was he when he kayaked for the first time down the largest glacial waterfall ever recorded in Norway? 12 years old.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Who was Japan's Prime Minister after Ichir\u014d Hatoyama left office on December 23, 1956?",
+      "target": "Tanzan Ishibashi",
+      "predicted": "Who was the Prime Minister after the resignation of Ichir\u014d Hatoyama on December 23, 1956? Who was the Prime Minister after the resignation of Ichir\u014d Hatoyama on December 23, 1956? Who was the Prime Minister after the resignation of Ichir\u014d Hatoyama on",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "How many more votes did Freeman Freeman-Thomas win than George Sandys in the 1906 Bodmin by-election?",
+      "target": "1,093",
+      "predicted": "Freeman Freeman-Thomas was the incumbent MP for Bodmin, and Sandys was the incumbent MP for Bodminshire. Freeman Freeman-Thomas was a Conservative, and Sandys was a Liberal. Freeman Freeman-Thomas was elected unopposed, and Sandys was elected unopposed. Freeman Freeman-Thomas was elected",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "While Henri d'Angoul\u00eame served as the governor of Provence, who was his secretary?",
+      "target": "Fran\u00e7ois de Malherbe.",
+      "predicted": "Henri d'Angoul\u00eame",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What year did Yohji Yamamoto's mother sell her dressmaking shop?",
+      "target": "1972.",
+      "predicted": "1980. What year did Yohji Yamamoto's mother sell her dressmaking shop? 1980. What year did Yohji Yamamoto's mother sell her dressmaking shop? 1980. What year did Yohji Yamamoto's mother sell her dressmaking shop? 1980.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In which country was the 4th edition of the ASEAN-India Grassroots Innovation Forum (AIGIF) launched?",
+      "target": "Malaysia",
+      "predicted": "(a) India (b) Thailand (c) Singapore (d) Indonesia",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Three years after joining Comme des Gar\u00e7ons, Junya Watanabe started designing which CdG line?",
+      "target": "Tricot line",
+      "predicted": "The first one, the \u201cJunya\u201d line, was created in 2006. The second one, the \u201cJunya\u201d line, was created in 2009. The third one, the \u201cJunya\u201d line, was created in 2012. The fourth one, the \u201cJunya\u201d line",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What was the name of the cannibal in the Whistleblower DLC of the 2013 video game \"Outlast\"?",
+      "target": "Frank Manera",
+      "predicted": "What was the name of the cannibal in the Whistleblower DLC of the 2013 video game \"Outlast\"?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What was the Sky EPG number of Game Network when it launched in the United Kingdom in May 2001?",
+      "target": "223.",
+      "predicted": "It was 1. It was the first game network in the world. It was the first game network in the world. It was the first game network in the world. It was the first game network in the world. It was the first game network in the world. It was the first game network in the world",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What is the month, day, and year that the United States removed Eritrea from the \"Counterterror Non-Cooperation List\"?",
+      "target": "May, 28, and 2019",
+      "predicted": "(2011)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What is the name of track 10 on disc 2 of the Sen no Kiseki IV - The End of Saga - original soundtrack?",
+      "target": "Break In",
+      "predicted": "I can't find it anywhere. I'm trying to find a way to get the whole soundtrack for the game. I've tried searching for it on the internet, but I can't find it anywhere. I'm trying to find a way to get the whole soundtrack for the game. I've tried searching for it on",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In what year did Jon Kleinberg become a fellow of the Association for Computing Machinery?",
+      "target": "2013",
+      "predicted": "(2000)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In what month and year did Bakshi Ghulam Mohammad announce his retirement from politics?",
+      "target": "June 1965",
+      "predicted": "(2013)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What year was the municipality of Tarso, Antioquia, Colombia, founded?",
+      "target": "1912",
+      "predicted": "What year was the municipality of Tarso, Antioquia, Colombia, founded?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "For the original Groove Coaster game for iOS, all the original songs were by Hirokazu Koshio (COSIO) and whom?",
+      "target": "Shohei Tsuchiya",
+      "predicted": "I don't know. I don't know who the original artist is for the original songs. I don't know who the original artist is for the original songs. I don't know who the original artist is for the original songs. I don't know who the original artist is for the original songs. I don't",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What's the full name of the first female Finance Minister in Zambia?",
+      "target": "Edith Zewelani Nawakwi",
+      "predicted": "What's the full name of the first female Finance Minister in Zambia?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "How many times did Bil Keane win Best Syndicated Panel by the National Cartoonists Society's Award?",
+      "target": "four times",
+      "predicted": "1",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "On June 24, 2021, which political party did Hong Joon-pyo rejoin?",
+      "target": "People Power Party.",
+      "predicted": "The answer is the Democratic Party of Korea (DOK).",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In which month and year did Apple add the ability for users to speak \"Hey Siri\" to enable the assistant without the requirement of physically handling the device?",
+      "target": "September 2014.",
+      "predicted": "I'm asking because I'm trying to figure out when I can start using the new feature. I'm not sure if I'm asking the right question, but I'm trying to figure out when I can start using the new feature. I'm not sure if I'm asking the right question, but I'm trying to",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "For what career did Eddie Marsan leave school at 16?",
+      "target": " apprentice printer",
+      "predicted": "Eddie Marsan was born in 1976 in London, England. He was raised in a Catholic family and attended St. Paul\u2019s Catholic School in London. He left school at 16 to pursue a career in the entertainment industry. Marsan has appeared in several films and television shows, including \u201cThe Tudors,\u201d",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What was the original name of the town of Dolores, Abra, Philippines?",
+      "target": "Bucao",
+      "predicted": "What was the original name of the town of Dolores, Abra, Philippines?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "How many people were involved in making the largest human DNA helix, achieved by the Medical University of Varna (Bulgaria) in Varna, Bulgaria, on April 23, 2016?",
+      "target": "4,000",
+      "predicted": "The answer is 1,000. The DNA helix was made by 1,000 people, each of whom contributed 1 minute of their time. The DNA helix was made by 1,000 people, each of whom contributed 1 minute of their time. The DNA helix was made by",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What was the name of Project Zero Dawn's Extinction Failsafe Protocol in the video game Horizon Zero Dawn (2017)?",
+      "target": "HADES",
+      "predicted": "What was the name of Project Zero Dawn's Extinction Failsafe Protocol in the video game Horizon Zero Dawn (2017)?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In what year was the Penny Crane Award for Distinguished Service established?",
+      "target": "2000",
+      "predicted": "(2016)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "On what date, month, and year did Mussolini declare before 60,000 people at the Fascist Congress in Naples, \"Our program is simple: we want to rule Italy\"?",
+      "target": "October 24, 1922",
+      "predicted": "(a) 1938 (b) 1939 (c) 1940 (d) 1941",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In what year did the Computer History Museum have its first exhibit?",
+      "target": "1975",
+      "predicted": "The museum was founded in 1996 by a group of Silicon Valley entrepreneurs who wanted to preserve the history of the computer industry. The museum opened its doors to the public in 1998 and has since been a leading center for the study of the history of computing.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Who kills Daryl Garrs in Happy Valley?",
+      "target": "Alison Garrs",
+      "predicted": "Who killed Daryl Gars in Happy Valley? Who killed Daryl Gars in Happy Valley? Who killed Daryl Gars in Happy Valley? Who killed Daryl Gars in Happy Valley? Who killed Daryl Gars in Happy Valley? Who killed Daryl Gars in Happy Valley? Who killed Daryl",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Sir Isaac Julien's installation piece 'Lost Boundaries' is from which year?",
+      "target": "2003",
+      "predicted": "(2000)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What year was the S\u00fcleymaniye damaged in the great fire?",
+      "target": "1660",
+      "predicted": "What year was the S\u00fcleymaniye damaged in the great fire?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "How much money did Benny Hinn Ministries donate to the tsunami relief effort in 2007?",
+      "target": "$250,000",
+      "predicted": "How much money did Benny Hinn Ministries donate to the tsunami relief effort in 2007?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Comedian Phyllis Diller was crowned with what title by \"Field and Stream\" magazine in 1973?",
+      "target": "Miss Fun Fishing",
+      "predicted": "The magazine's editor-in-chief was named in 1973. The magazine's editor-in-chief was named in 1973.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What was Yoido Full Gospel Church's membership in 1968?",
+      "target": "8000",
+      "predicted": "What was the membership in 1970? What was the membership in 1972? What was the membership in 1974? What was the membership in 1976? What was the membership in 1978? What was the membership in 1980? What was the membership in 1982? What",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "The Jensen Interceptor (1950), produced from 1950 to 1957, had a wheelbase measurement of what in millimeters?",
+      "target": "2,845 mm",
+      "predicted": "(a) 2,500 (b) 2,500 (c) 2,500 (d) 2,500",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Who was the recipient of the Leslie Fox Prize for Numerical Analysis in 2017?",
+      "target": "Nicole Spillane",
+      "predicted": "The Leslie Fox Prize for Numerical Analysis is awarded annually by the Institute of Mathematics and its Applications to a person who has made outstanding contributions to the theory and practice of numerical analysis. The prize is named after Leslie Fox, who was a leading figure in the development of numerical analysis in the UK. The prize is awarded for",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In which year did the top religious body in Saudi Arabia give the green light for codification of Sharia law?",
+      "target": "2010",
+      "predicted": "The answer is 2012. The Saudi government has been working on codifying Sharia law for over 30 years. The Saudi government has been working on codifying Sharia law for over 30 years. The Saudi government has been working on codifying Sharia law for over 30 years. The Saudi government has been working",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "To whom did Mehbooba Mufti Sayed contest the 2019 Lok Sabha elections and lose?",
+      "target": "Hasnain Masoodi",
+      "predicted": "The answer is simple. She lost because she is a Muslim and the Muslim vote is not a vote for the Muslim candidate. The Muslim vote is a vote for the Hindu candidate. The Muslim vote is a vote for the Hindu candidate. The Muslim vote is a vote for the Hindu candidate. The Muslim vote is a vote",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who directed the play \"Agamemnon\" at the 2022 Athens Epidaurus Festival?",
+      "target": "Ulrich Rasche",
+      "predicted": "Who directed the play \"Agamemnon\" at the 2022 Athens Epidaurus Festival?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who was the first fashion designer to stream a runway show online?",
+      "target": "Helmut Lang",
+      "predicted": "Who was the first fashion designer to stream a runway show online?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the surname of the individual who won the Gibson-Fawcett Award in 2012?",
+      "target": "Fogg",
+      "predicted": "The Gibson-Fawcett Award is a prize given to a person who has made a significant contribution to the field of musicology. The award was first given in 1986 and has been given to many notable figures in the field of musicology. The winner of the Gibson-Fawcett Award in 201",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What was the title of the episode of *River Monsters* in which Jeremy Wade caught a Japanese giant salamander by hand?",
+      "target": "\"Cold Blooded Horror\"",
+      "predicted": "(I know it's not a salamander, but I'm not sure what it is.)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who was the inaugural winner of the Riemann Prize in 2019?",
+      "target": "Terence Tao",
+      "predicted": "The Riemann Prize is awarded annually to a young mathematician who has made outstanding contributions to the theory of numbers. The prize is named after the German mathematician and physicist Bernhard Riemann, who was born in 1826 and died in 1866. He is best known for his work on the",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the name of the man who discovered 37 of the 75 non-prismatic uniform polyhedra in 1878?",
+      "target": "Albert Badoureau",
+      "predicted": "(1) The name of the man who discovered 37 of the 75 non-prismatic uniform polyhedra in 1878? (2) The name of the man who discovered 37 of the 75 non-prismatic uniform polyhedra in 1878? (3) The name of the man",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the month, day, and year Kaitlin Armstrong pleaded not guilty to the murder charge of Moriah Wilson and was arraigned?",
+      "target": "July 21, 2022",
+      "predicted": "What is the name of the man who was shot and killed by Kaitlin Armstrong? What is the name of the man who was shot and killed by Kaitlin Armstrong? What is the name of the man who was shot and killed by Kaitlin Armstrong? What is the name of the man who was shot",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "How old was Fatima Sydow, the famous Cape Malay chef, when she passed away?",
+      "target": "50.",
+      "predicted": "She was 94 years old.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What type of display does the Toshiba BC-1411 use?",
+      "target": "Nixie tube display",
+      "predicted": "What is the resolution of the display? What is the refresh rate of the display? What is the maximum resolution of the display? What is the maximum refresh rate of the display? What is the maximum resolution of the display? What is the maximum refresh rate of the display? What is the maximum resolution of the display?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In which city in India is the flyover bridge named after Sam Manekshaw?",
+      "target": "Ahmedabad",
+      "predicted": "(a) New Delhi (b) Mumbai (c) Bangalore (d) Chennai",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What was the date, month, and year when \"Selective Availability\" was discontinued as a result of the 1996 executive order, allowing civilian users to receive a non-degraded signal globally?",
+      "target": "2 May 2000",
+      "predicted": "(Answer: 1996-12-31)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Other than being a choreographer for the TV series In Living Color, what other job did Rosie Perez do on the show?",
+      "target": "segment producer",
+      "predicted": "She was a producer for the show. She also worked as a producer for the movie The Last King of Scotland. She also worked as a producer for the movie The Last King of Scotland. She also worked as a producer for the movie The Last King of Scotland. She also worked as a producer for the movie The Last",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "On what day, month, and year did Ignaz Alberti, an Austrian illustrator, engraver, and book printer, die?",
+      "target": "31 August 1794",
+      "predicted": "He was born on 28 February 1800 in Vienna, Austria, and died on 28 February 1874 in Vienna, Austria.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "On what day, month, and year was Syed Bashir Ahmad (a Kashmiri politician) born?",
+      "target": "2 January 1952",
+      "predicted": "What was his father\u2019s name? What was his mother\u2019s name? What was his father\u2019s profession? What was his mother\u2019s profession? What was his father\u2019s occupation? What was his mother\u2019s occupation? What was his father\u2019s father\u2019s name? What was his father\u2019s mother\u2019s name? What was his father",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who is the municipality of G\u00f3mez Plata, Antioquia, Colombia, named after?",
+      "target": "Juan de la Cruz G\u00f3mez Plata",
+      "predicted": "What is the name of the municipality of G\u00f3mez Plata, Antioquia, Colombia, named after? What is the name of the municipality of G\u00f3mez Plata, Antioquia, Colombia, named after? What is the name of the municipality of G\u00f3mez Plata, Antioquia,",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the surname of the individual who won the Robert Boyle Prize for Analytical Science, formerly called the Boyle Medal, in 2012?",
+      "target": "Dovichi",
+      "predicted": "The winner was Dr. John C. White, a professor of chemistry at the University of Cambridge. He was the first person to isolate and identify the amino acid glycine. He also discovered the amino acid aspartic acid. He was born in 1944 in New York City. He received his Ph.D.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In which year was the International Centre for Genetic Engineering and Biotechnology (ICGEB) established?",
+      "target": "1983",
+      "predicted": "(a) 1974 (b) 1975 (c) 1976 (d) 1977",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "On which date, month, and year was the \"King Shaka International Airport\" name approved by the South African Geographical Names Council?",
+      "target": "14 January 2010",
+      "predicted": "(Please note that the date is not the date of the official approval, but the date of the official approval by the council.)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who designed the San Mart\u00edn Palace?",
+      "target": "The San Mart\u00edn Palace was designed by the architect Alejandro Christophersen.",
+      "predicted": "The San Mart\u00edn Palace was designed by the architect Juan Bautista Capdeviella. The San Mart\u00edn Palace was built in 1784 and was the first building in the city of Lima. The San Mart\u00edn Palace was built in the style of the French Empire. The San Mart\u00edn Palace was built in",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What venue did Ciara perform at on May 27, 2015, for her Jackie tour?",
+      "target": "House of Blues",
+      "predicted": "The venue was the House of Blues in Los Angeles, California. The show was a part of the Jackie tour, which was a concert tour by American singer Ciara. The tour was in support of her second studio album, Jackie. The tour started on May 27, 2015, and ended on June",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "In what year was the praying mantis species Eremiaphila braueri described by Krauss?",
+      "target": "1902",
+      "predicted": "The species was described in 1904. The species was described in 1904. The species was described in 1904. The species was described in 1904. The species was described in 1904. The species was described in 1904. The species was described in 1904. The",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Tell me the specific day, month, and year when the Samajwadi Janata Party was formed.",
+      "target": "5 November 1990",
+      "predicted": "I will be happy to give you a prize.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the name of the performance that influenced \"Rhythm 2\" by Marina Abramovi\u0107 to include an unconscious aspect?",
+      "target": "Rhythm 5",
+      "predicted": "What is the name of the performance that influenced \"Rhythm 2\" by Marina Abramovi\u0107 to include an unconscious aspect?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the name of the man who purchased Belmont on St. Saviour's Hill, Jersey, UK, in 1822?",
+      "target": "Sir Colin Halkett",
+      "predicted": "He was a wealthy man, and he was a friend of the Duke of Wellington, who was a friend of the Duke of Bedford, who was a friend of the Duke of Wellington's brother, the Duke of Bedford's son, and the Duke of Bedford's son's son, and the Duke of Bedford's son's",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "How many livres did artist Jean-Antoine Watteau sell his painting \"Camp-fire\" to Sirois for?",
+      "target": "200",
+      "predicted": "The answer is 1. The price is 1. The price is 1. The price is 1. The price is 1. The price is 1. The price is 1. The price is 1. The price is 1. The price is 1. The price is",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What was the maximum takeoff weight of the Brewster F2A-3 Buffalo (1937) in kilograms?",
+      "target": "3,247",
+      "predicted": "The maximum takeoff weight of the Brewster F2A-3 Buffalo (1937) in kilograms was 1,500 kg. The maximum takeoff weight of the Brewster F2A-3 Buffalo (1937) in kilograms was 1,500 kg. The maximum takeoff weight of the Brew",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Which patch for the original Dark Souls reduced the effectiveness of the Hornet Ring?",
+      "target": "1.06",
+      "predicted": "I'm not sure if it's the same as the one in the PS3 version, but I'm not sure if it's the same as the one in the PS3 version, but I'm not sure if it's the same as the one in the PS3 version, but I'm not sure if it's",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "How many operator cells are within the Yamaha YM2203 from the 1980s?",
+      "target": "12 operator cells.",
+      "predicted": "I have a Yamaha YM2203 from the 1980s. It has 4 operator cells. I have a Yamaha YM2203 from the 1980s. It has 4 operator cells. I have a Yamaha YM2203 from the 1980s. It has 4 operator cells. I",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What was the title of Episode 12, Season 3 of Airwolf?",
+      "target": "Half-Pint",
+      "predicted": "The title of Episode 12, Season 3 of Airwolf was \"The Man Who Never Was\". The episode was written by John D. F. Black and directed by Robert J. Horvath. The episode was first broadcast on September 26, 1984.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In which village was the victim of the 2019 Hyderabad gang rape and murder case working as a veterinary assistant surgeon at the state-run hospital?",
+      "target": "Kollur",
+      "predicted": "(c) (d) (e) (f) (g) (h) (i) (j) (k) (l) (m) (n) (o) (p) (q) (r) (s) (t) (u) (v) (w) (",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Which company launched India\u2019s first commercial MCU chip?",
+      "target": "Mindgrove",
+      "predicted": "Which company launched India\u2019s first commercial MCU chip?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In the video game Dark Souls 1 for the PlayStation 3, which starting class has 11 vitality, 13 strength, and starts at soul level 4?",
+      "target": "Warrior",
+      "predicted": "The answer is 4. The class is a warrior, and the class has 11 vitality, 13 strength, and starts at soul level 4. The class is a warrior, and the class has 11 vitality, 13 strength, and starts at soul level 4.",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "During which year did Gerhard Richter have a solo exhibition named \"Gerhard Richter 4900 Colours: Version II\"?",
+      "target": "2008",
+      "predicted": "The exhibition was held at the Kunsthalle in D\u00fcsseldorf, Germany.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What are the name of the town and province in the Netherlands where Frans Gunningh Sloet died?",
+      "target": " Edam, North Holland",
+      "predicted": "I have a book on the subject, but it doesn't say.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "On which day, month, and year did Egypt play against Angola in Group A of the 1996 African Cup of Nations?",
+      "target": "15 January 1996",
+      "predicted": "(Choose one)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What Terraria patch added biome-specific stalactites to the underground areas?",
+      "target": "1.2.3",
+      "predicted": "What is the name of the biome that the stalactites are in? What is the name of the biome that the stalactites are in?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the surname of the individual who won the Chemical Industry Medal, an annual American award given to an industrial chemist by the Society of Chemical Industry, America, in 1960?",
+      "target": "Stauffer",
+      "predicted": "The name is not given in the book, but I have a feeling it is the same as the name of the individual who won the Chemical Industry Medal, an annual American award given to an industrial chemist by the Society of Chemical Industry, America, in 1960? The name is not given in the book,",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who originally recorded the scientific name of the white-headed duck as *Anas leucocephala* in 1769?",
+      "target": "Giovanni Antonio Scopoli",
+      "predicted": "(a) Linnaeus (b) Linnaeus (c) Linnaeus (d) Linnaeus",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "The Dante-Alighieri monument, located on All\u00e9e des Po\u00e8tes along Rue D'Auteuil, was created by L'atelier Attitude and inspired by the work of what Italian-born sculptor?",
+      "target": "Carlo Balboni",
+      "predicted": "Dante Alighieri, the author of the Divine Comedy, was born in Florence in 1265. He was a poet, philosopher, and politician. He is considered the greatest poet of the Italian language. He is also known for his role in the Italian Renaissance. He is also known for his role in the Italian",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In what year did Francesco \"Franco\" Giordano become a member of the Italian Communist Party?",
+      "target": "1974",
+      "predicted": "(2000)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Richard Serra created his work 'Thirty-Five Feet of Lead Rolled Up' while living in which city?",
+      "target": "New York City",
+      "predicted": "(2000)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What year was the municipality of Susac\u00f3n, Boyac\u00e1, Colombia, founded?",
+      "target": "1809",
+      "predicted": "What year was the municipality of Susac\u00f3n, Boyac\u00e1, Colombia, founded?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Which Denver team did Brodie Smith play for in 2014?",
+      "target": "Johnny Bravo",
+      "predicted": "The Denver Broncos, of course. Smith was a member of the Broncos\u2019 2014 Super Bowl-winning team. He played in 14 games for the Broncos in 2014, recording 11 tackles. He was also a member of the Denver Broncos\u2019 2014 NFC Championship team. Smith played in 14",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Ivan Lyakhov located the Lyakhovsky Islands by following the tracks of which animal?",
+      "target": "Reindeer",
+      "predicted": "(Choose all that apply)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the number and name of the second asteroid discovered by astronomer \u00c9douard Jean-Marie Stephan?",
+      "target": "91 Aegina",
+      "predicted": "(a) 1. 2. 3. 4. 5. 6. 7. 8. 9. 10. 11. 12. 13. 14. 15. 16. 17. 18. 19. 20.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who was Savannah Churchill's second husband?",
+      "target": "Jesse Johnson",
+      "predicted": "Who was Savannah Churchill's second husband?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In what year did the Ethiopian politician Billene Seyoum Woldeyes co-form a spoken-word poetry collective called Zemneged-Andinet?",
+      "target": "2011",
+      "predicted": "The collective was formed in 2011, and the year was 2012. The collective was formed in 2011, and the year was 2012. The collective was formed in 2011, and the year was 2012. The collective was formed in 2011, and the year was",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What was the first name of the man who, in 1925, married Mavis Tate, a former British Conservative politician?",
+      "target": "Henry",
+      "predicted": "He was the father of the man who, in 1945, married Mavis Tate, a former British Conservative politician. He was the father of the man who, in 1945, married Mavis Tate, a former British Conservative politician. He was the father of the man who, in 1945,",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In which month and year did Arch Linux installation images start including installation scripts by default?",
+      "target": "April 2021",
+      "predicted": "I'm trying to install Arch Linux on a new machine, but I'm not sure if I should use the ISO image or the installation script. I'm not sure if I should use the ISO image or the installation script. I'm not sure if I should use the ISO image or the installation script. I'm not",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Which school did Lucas Valeriu Ntuba Radebe, the former South African professional footballer, attend until he was 15 years old?",
+      "target": "Bopasenatla Secondary School",
+      "predicted": "(Choose all that apply.)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "On which month and year did Sony announce the PlayStation 5?",
+      "target": "April 2019",
+      "predicted": "The PlayStation 5 was announced on March 17, 2020, at the PlayStation Experience event. The PlayStation 5 was released on November 12, 2020, in the United States.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Which female chemist was awarded the Garvan\u2013Olin Medal in 1952?",
+      "target": "Gladys A. Emerson",
+      "predicted": "(Choose all that apply.)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In which month of 1993 was the Jianbing-93 spacecraft launched?",
+      "target": "October",
+      "predicted": "(a) 1st (b) 2nd (c) 3rd (d) 4th",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who played Creon in Antigone at the Epidaurus Festival 2022?",
+      "target": "Vasilis Bisbikis played Creon in Antigone at the Epidaurus Festival in 2022.",
+      "predicted": "Who played Creon in Antigone at the Epidaurus Festival 2022?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who did the choreography for the play \"Helen\" at the 2022 Athens Epidaurus Festival?",
+      "target": "Dimitris Sotiriou",
+      "predicted": "Who did the choreography for the play \"Helen\" at the 2022 Athens Epidaurus Festival?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "On what day, month, and year was William Hodgson \"Hod\" Stuart suspended from the league before the start of the 1905\u201306 season?",
+      "target": "11 December 1905",
+      "predicted": "(Note: The league did not suspend players until after the start of the season.)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What is the first and last name of the professor who received the Royal Society of Chemistry Bader Award in 2021?",
+      "target": "Alison Hulme",
+      "predicted": "The Royal Society of Chemistry (RSC) is a learned society of scientists, engineers and academics. It was founded in 1804 and is the oldest learned society in the world. The RSC is a member of the International Union of Pure and Applied Chemistry (IUPAC). The RSC is a member of",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Under what section of CRPC was Omar Abdullah placed under preventive detention by the Indian government on the 4th and 5th of August 2019?",
+      "target": "107",
+      "predicted": "The answer is in the 2019 Indian government\u2019s own report, which states that Omar Abdullah was placed under preventive detention by the Indian government on the 4th and 5th of August 2019. The report also states that Omar Abdullah was placed under preventive detention by the Indian government on the 4th",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In what month and year did Jacques Fr\u00e9d\u00e9ric Fran\u00e7ais publish a work in which he gave a geometric representation of complex numbers with interesting applications?",
+      "target": "September 1813",
+      "predicted": "(1 point)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What role did Darsheel Safary play in the series Yeh Hai Aashiqui in 2016?",
+      "target": "Abhay",
+      "predicted": "Darsheel Safary is a well-known actor in the Indian film industry. He is best known for his role as a child actor in the film Yeh Hai Aashiqui. Darsheel Safary was born in Mumbai, Maharashtra, India, on July 31, 1996. He is a",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What month, day, and year did the second session of the 4th Parliament of Singapore commence?",
+      "target": "December 26, 1978",
+      "predicted": "What was the name of the 4th Parliament? What was the name of the 4th Parliament's Speaker? What was the name of the 4th Parliament's Deputy Speaker? What was the name of the 4th Parliament's Chief Whip? What was the name of the 4th Parliament's Chief",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who was the first transgender person in Argentina to get her name and gender on her government-issued ID legally changed?",
+      "target": "Florencia de la V",
+      "predicted": "The answer is: No one.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What patch number was the Space Creature set added to in Terraria?",
+      "target": "1.2.1",
+      "predicted": "The Space Creature set was added to the game in patch 1.3.1. It was added to the game in patch 1.3.1. It was added to the game in patch 1.3.1. It was added to the game in patch 1.3.1. It",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "How many sons did Nathan Mendelsohn and his wife, Helen, have?",
+      "target": "Two",
+      "predicted": "How many did they have in total? How many did they have in the 20 years they lived in the United States? How many did they have in the 20 years they lived in Israel? How many did they have in the 20 years they lived in Israel? How many did they have in the 20",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In what month, date, and year did Jarrette Jones from the American version of \"Love Is Blind\" Season 2 announce his separation?",
+      "target": "August 17th, 2022",
+      "predicted": "What was the reason for the separation?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the title in French of Dame Margot's debate song (jeu parti) in which she debates Dame Maroie?",
+      "target": "\"Je vous pri, dame Maroie\"",
+      "predicted": "I'm trying to find the title in French of this song, but I can't find it anywhere. I've looked in the book, but it's not there. I'm trying to find the title in French of this song, but I can't find it anywhere. I've looked in the book, but it",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who did Rose Matafeo join in July 2020 on the comedy show Tiny Tour of Aotearoa, traveling across New Zealand?",
+      "target": "Guy Montgomery",
+      "predicted": "The answer is none other than the legendary comedian and TV presenter, Rose Matafeo. Matafeo is a New Zealand-born comedian, actress, and television presenter. She is best known for her work on the TV series The Roast, which she co-created with fellow comedian and TV presenter, Rhys Darby",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What is the name of Communist politician Georgi Dimitrov's second wife?",
+      "target": "Roza Yulievna Fleishmann ",
+      "predicted": "(1946-1953)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In Season 2 of Dexter, who catches Dexter while trying to dispose of his mother's killer's remains?",
+      "target": "Doakes",
+      "predicted": "(Spoilers)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What day, month, and year was James Young (Missouri politician) born?",
+      "target": " 11 May, 1800",
+      "predicted": "What day, month, and year was James Young (Missouri politician) born?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who was the guest star who played Carter on S5 E9 of \"The Dukes of Hazzard\"?",
+      "target": "Brett Halsey",
+      "predicted": "I know it was not the original Carter, but I'm not sure who it was. I'm trying to find out who it was, but I can't find it anywhere. I'm trying to find out who it was, but I can't find it anywhere. I'm trying to find out who it was,",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In June 1637, Thomas Ballard of Wandsworth accused Richard Kestian of publicly calling him a liar at which man's house in Putney in front of justices of the peace?",
+      "target": "Sir Abraham Dawes",
+      "predicted": "Thomas Ballard was a member of the London Lollards, a group of English Protestants who were persecuted by the Church of England. The Lollards were a group of English Protestants who were persecuted by the Church of England. The Lollards were a group of English Protestants who were persecuted by the Church",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who succeeded Stefano Moshi as presiding bishop of the Evangelical Lutheran Church in Tanzania?",
+      "target": "Sebastian Kolowa",
+      "predicted": "Who succeeded Stefano Moshi as presiding bishop of the Evangelical Lutheran Church in Tanzania?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "From which university did W. Gary Ernst receive his Ph.D.?",
+      "target": "John Hopkins University",
+      "predicted": "Ernst is a professor of political science at the University of North Carolina at Chapel Hill. He is the author of The Politics of the American Revolution: The Founding Fathers and the Creation of the Constitution (2005) and The American Revolution: A Concise History (2006). He is also the author of The American",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who was Ra\u00fal Alfons\u00edn's first Minister of Defense?",
+      "target": "Ra\u00fal Borr\u00e1s",
+      "predicted": "What was the name of the first President of Argentina? What was the name of the first President of Argentina? What was the name of the first President of Argentina? What was the name of the first President of Argentina? What was the name of the first President of Argentina? What was the name of the first President of",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who was the recipient of the ISCB Accomplishment by a Senior Scientist Award in 2012?",
+      "target": "Gunnar von Heijne",
+      "predicted": "The award was presented to Dr. John E. Walker, a senior scientist at the National Institute of Health (NIH) in the United States. He was recognized for his contributions to the field of bioinformatics and his work on the development of the first bioinformatics database.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In what episode and season of Scandal did Olivia find out that her mother is a terrorist?",
+      "target": "Season 3 Episode 9",
+      "predicted": "I know it's a long time ago, but I'm curious. I'm not sure if it's in the first season or the second. I'm not sure if it's in the first season or the second. I'm not sure if it's in the first season or the second. I'm not sure if",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "\"The Little Village that Grew,\" a local history published in 1987 and contributed to by the Northside Community Association, is about which Alberta village?",
+      "target": "North Red Deer.",
+      "predicted": "The answer is: Northside. The book is a collection of stories about the people and events that shaped the community. It is a must-read for anyone who wants to know more about the history of Northside.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "As of 2020, what is the number of academic staff in the University of Cambridge?",
+      "target": "6170",
+      "predicted": "The number of academic staff in the University of Cambridge is 1,500. The number of academic staff in the University of Cambridge is 1,500. The number of academic staff in the University of Cambridge is 1,500. The number of academic staff in the University of Cambridge is 1,500.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What is the title of Series 1, Episode 17 of *Space: 1999*?",
+      "target": "\"The Last Sunset\"",
+      "predicted": "I have seen the title in the credits, but I can't find it anywhere else. I have seen the title in the credits, but I can't find it anywhere else.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Toronto mayors Sir Adam Wilson (Mayor from 1859-1861), John George Bowes (Mayor from 1861-1864), and Francis Henry Medcalf (Mayor from 1864-1867) were elected to office by which body?",
+      "target": "The public",
+      "predicted": "(1) The Toronto Board of Trade (1861-1864) (2) The Toronto Board of Trade and Improvement (1864-1867) (3) The Toronto Board of Trade and Improvement and Improvement Company (1867-1869) (4) The Toronto Board of Trade and Improvement and Improvement",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What year was Fiordland College in New Zealand established?",
+      "target": "1976",
+      "predicted": "The Fiordland College was established in 1974. The Fiordland College was established in 1974. The Fiordland College was established in 1974. The Fiordland College was established in 1974. The Fiordland College was established in 1974. The Fiordland",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "At which University of Puerto Rico campus did New York State Representative Nydia Vel\u00e1zquez work as a professor from 1976 to 1981?",
+      "target": "Humacao ",
+      "predicted": "She was a professor of political science at the University of Puerto Rico at Mayag\u00fcez from 1976 to 1981. She was a professor of political science at the University of Puerto Rico at Mayag\u00fcez from 1976 to 1981. She was a professor of political science at the University",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Who was the inaugural holder of the position of Attorney General of Argentina?",
+      "target": "Francisco Pico",
+      "predicted": "Who was the first Attorney General of Argentina? Who was the first Attorney General of Argentina? Who was the first Attorney General of Argentina? Who was the first Attorney General of Argentina? Who was the first Attorney General of Argentina? Who was the first Attorney General of Argentina? Who was the first Attorney General of Argentina? Who",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Where was singer Ivan Rebroff's father born?",
+      "target": "Liebenwerda.",
+      "predicted": "Ivan Rebroff's father was born in the city of Krasnodar, Russia. Ivan Rebroff's father was born in the city of Krasnodar, Russia.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "How old was Montreal native Charles Whitlaw in 1846 when he bought a grist mill on Grand River Street from Robert Kirkwood in Paris, Ontario?",
+      "target": "Twenty two",
+      "predicted": "The answer is 21 years old. Whitlaw was born in 1825 in Montreal, Quebec, Canada. He was the son of John Whitlaw and Mary Ann (nee: Kirkwood). Charles Whitlaw was born in 1825 in Montreal, Quebec, Canada. He was the son of John Whitlaw",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What song (title and artist) inspired Tuesday from the anime \"Carole & Tuesday\" (2019) to run away from home to pursue music?",
+      "target": "Cyndi Lauper - True Colors",
+      "predicted": "I'm not sure if it's a song or a movie, but I'm sure it's a song.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "On what day, month, and year was Vladas Mironas, the 14th Prime Minister of Lithuania, born?",
+      "target": "22 June 1880.",
+      "predicted": "We have the answer.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In what year did the Society of Illustrators sell the rights to their Illustrator Show skits?",
+      "target": "1925",
+      "predicted": "I have a copy of the 1964 show, but I don't know when it was published. I have a copy of the 1964 show, but I don't know when it was published. I have a copy of the 1964 show, but I don't know when it was published. I",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "As of 2022, what is the population of Mersin Province?",
+      "target": "1,916,432",
+      "predicted": "Mersin Province has a population of 1,000,000 people.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What is the name of the sole survivor of the 2008 Yeti Airlines Flight 103 crash?",
+      "target": "Surendra Kunwar",
+      "predicted": "What is the name of the sole survivor of the 2008 Yeti Airlines Flight 103 crash?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What was the date (day/month/year) of the professional rower Albert Hamm's (1860-1891) first professional race?",
+      "target": "August 1st, 1880",
+      "predicted": "The answer is 1890-01-01.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Who is credited with the binomial name of the yellowfin sole?",
+      "target": "Pallas",
+      "predicted": "(a) John L. Richardson (b) John L. Richardson (c) John L. Richardson (d) John L. Richardson",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Which college in Srinagar was accredited as the College for Potential Excellence by the University Grants Commission (India) in April 2010?",
+      "target": "Islamia College of Science and Commerce",
+      "predicted": "(a) Government College, Srinagar (b) Government College, Anantnag (c) Government College, Budgam (d) Government College, Budgam",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "On what day, month, and year did King Louis II's, also known as King Louis XIII of France, reign as King of Navarre end?",
+      "target": "20 October 1620",
+      "predicted": "This question is from the 2016-2017 AP European History 1, 2, and 3, and AP European History 4, 5, and 6, and AP European History 7, 8, and 9, and AP European History 10, 11, and",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What Toronto Library collection was established in 1977, named after the children's librarian and head of the TPL?",
+      "target": "The Jean Thomson Collection of Original Art",
+      "predicted": "What was the name of the Toronto Public Library's first children's librarian?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In what year did S. Osman Ali, the 7th Governor of the State Bank of Pakistan, enter the Indian Civil Service?",
+      "target": "1934",
+      "predicted": "(a) 1947 (b) 1948 (c) 1949 (d) 1950",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Which year was Bob Marley's home converted into a museum?",
+      "target": "1986",
+      "predicted": "A) 1970 B) 1971 C) 1972 D) 1973",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In which episode and season of Regular Show did Mordecai and Rigby find RadiCola?",
+      "target": "Season 2, Episode 9: Party Pete",
+      "predicted": "I'm not sure, but I'm pretty sure it was in season 2, episode 4, \"The Great RadiCola War.\" I'm not sure if it was the episode or season, but I'm pretty sure it was in season 2, episode 4, \"The Great RadiCola War",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Who was the first woman to be elected as the Speaker of the House of Representatives in Nepal?",
+      "target": "Onsari Gharti Magar",
+      "predicted": "Who was the first woman to be elected as the Speaker of the House of Representatives in Nepal?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who won the Godman-Salvin Medal in 2010?",
+      "target": "Ian Newton",
+      "predicted": "Who won the Godman-Salvin Medal in 2010?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What was Jitendra Kumar Maheshwari's position just before being appointed as a judge of the Supreme Court of India?",
+      "target": "Chief Justice of the Sikkim High Court",
+      "predicted": "He was a member of the Central Administrative Tribunal (CAT) of India. He was a member of the Central Administrative Tribunal (CAT) of India. He was a member of the Central Administrative Tribunal (CAT) of India. He was a member of the Central Administrative Tribunal (CAT) of India. He was a member",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Odisha\u2019s longest road bridge, \u201cNetaji Subhas Chandra Bose Setu,\u201d has been built over which tributary of the Mahanadi River?",
+      "target": "Kathajodi ",
+      "predicted": "(a) Mahanadi (b) Brahmani (c) Mahanadi (d) Brahmani",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who created Ida Mntwana's bronze statue?",
+      "target": "Sarah Lovejoy",
+      "predicted": "Ida Mntwana's bronze statue was created by the artist, John Mthembu. The statue was created in 1994 and was donated to the Nelson Mandela Foundation. The statue is located in the Nelson Mandela Foundation's offices in Johannesburg, South Africa.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "During which tour was Ghost's Papa Nihil resurrected?",
+      "target": "Imperatour.",
+      "predicted": "(2001)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In which year, on repeated requests from the student community of Ladakh, did Sonam Wangchuk (an Indian engineer, innovator, and education reformist) help launch the New Ladakh Movement (NLM), a social campaign and Ladakh's version of the Green Party, to work for sustainable education, environment, and economy?",
+      "target": "2013",
+      "predicted": "This is the question that I have been asking myself for the past 2 years. I have been trying to find the answer to this question in the history of Ladakh, but I have not been able to find it. I have been trying to find the answer to this question in the history of Ladakh, but",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What month and year did a team of scientists publish a study of a skeleton found in Bragan\u00e7a, northeastern Portugal, of a man who died around 1000 AD and was discovered to have a 47,XXY karyotype?",
+      "target": "August 2022",
+      "predicted": "The answer is 2010.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "On what day, month, and year did the physicist and chemist Katharine Burr Blodgett issue the U.S. patent for \"Step Gauge for Measuring Thickness of Thin Films\"?",
+      "target": "26 February 1952",
+      "predicted": "(The patent was issued on March 31, 1954.)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In which street did Martin Gardner live with his family in Hastings-on-Hudson, New York, before moving to Hendersonville in 1979?",
+      "target": "Euclid Avenue",
+      "predicted": "He was a member of the New York Society Library, and wrote for the New York Times, the New York Herald Tribune, and the New York Post. He was a member of the New York Society Library, and wrote for the New York Times, the New York Herald Tribune, and the New York Post. He was",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Which Indian agriculture is known as Golden Zest?",
+      "target": "Saffron Cultivation",
+      "predicted": "Which Indian agriculture is known as Golden Zest?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Mathematician Alexander Aitken graduated in 1920 with First Class Honors in what subject?",
+      "target": "French and Latin",
+      "predicted": "Mathematics",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What total number of newly discovered pieces of music by Maddalena Casulana were played for the first time in 400 years on March 8, 2022, as part of BBC Radio 3's programming for International Women's Day?",
+      "target": "12",
+      "predicted": "",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What was the year when NASA Administrator James C. Fletcher proposed a token of $5 million for Hubble in NASA's budget?",
+      "target": "1977",
+      "predicted": "(a) 1984 (b) 1985 (c) 1986 (d) 1987",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What was the model number of the first Betamax VCR in the US?",
+      "target": "LV-1901",
+      "predicted": "What was the model number of the first Betamax VCR in the US?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "On what day, month, and year did Ghulam Nabi Wani Sogami (an Indian politician from Jammu and Kashmir) die?",
+      "target": " 23 July 1981",
+      "predicted": "Answer: 26th December 2018",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "On what day, month, and year did the United Nations Security Council pass its first resolution on Kashmir?",
+      "target": "21 April 1948",
+      "predicted": "The resolution was passed on 12 October 1948, and the resolution was passed by the United Nations Security Council on 12 October 1948. The resolution was passed by the United Nations Security Council on 12 October 1948. The resolution was passed by the United Nations Security Council on 12 October",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Which award did Reza Aslan receive in 2014?",
+      "target": "The Intersections International Award",
+      "predicted": "He received the 2014 National Book Award for his book, The Hidden War: The Secret History of the Iranian Revolution. He also received the 2014 National Book Award for his book, The God Who Wasn\u2019t There: The Life and Legacy of the Prophet Muhammad. He also received the 2014 National",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "On what day, month, and year was Ila Pant (an Indian politician) born?",
+      "target": "10 March 1938",
+      "predicted": "Ila Pant was born on 15th of May, 1924 in a village named Kheri in the state of Uttar Pradesh, India. Ila Pant was born in the year 1924. Ila Pant was born in the year 1924. Ila Pant was born in the year",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What was the population of Goldsboro, NC, in the 2020 census?",
+      "target": "33,657",
+      "predicted": "How many people lived in Goldsboro, NC, in 2020? How many people lived in Goldsboro, NC, in 2019? How many people lived in Goldsboro, NC, in 2018? How many people lived in Goldsboro, NC, in 2017?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Which character narrated the last episode of the \"One Life to Live\" series that aired on January 13, 2012?",
+      "target": "Allison Perkins",
+      "predicted": "Which character narrated the last episode of the \"One Life to Live\" series that aired on January 13, 2012?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "According to the last population update in 2010, the rural locality of Taz Russky in the Klyapovskoye Rural Settlement of Russia has a population of what?",
+      "target": "175",
+      "predicted": "(1) 1,000 (2) 1,000,000 (3) 1,000,000,000 (4) 1,000,000,000,000",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What year was the third edition of the Yale Bright Star Catalogue published?",
+      "target": "1964",
+      "predicted": "What was the name of the Yale Bright Star Catalogue?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What Mozilla Firefox release version included the patch note: \"Improved the performance of the instance when Microsoft's IME and Defender retrieve the URL of a focused document in Windows 11 version 22H2\"?",
+      "target": "107.0",
+      "predicted": "I'm not sure if this is a bug or a feature. I'm using Firefox 101.0.4.0 on Windows 11 version 22H2. I'm not sure if this is a bug or a feature. I'm using Firefox 101.0.4.0 on Windows 11",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Give the name of Basanti Dulal Nag Chaudhuri's (an Indian nuclear scientist) wife.",
+      "target": " Dipali Nag n\u00e9e Talukdar",
+      "predicted": "She is a professor at the University of California, Berkeley. She is the first woman to be elected to the American Physical Society. She is the first woman to be elected to the American Association for the Advancement of Science. She is the first woman to be elected to the American Association for the Advancement of Science.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In which year was the municipality of San Eduardo, Boyac\u00e1, Colombia, founded?",
+      "target": "1914",
+      "predicted": "(1)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What drag family was Mon\u00e9t X Change originally a member of before starting her own?",
+      "target": "Davenport.",
+      "predicted": "What is the name of the song that Mon\u00e9t X Change performed on the 2006 MTV Video Music Awards? What is the name of the song that Mon\u00e9t X Change performed on the 2006 MTV Video Music Awards? What is the name of the song that Mon\u00e9t X Change performed on the 2006",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "The Partisan weapon in the original version of Bloodstained: Ritual of the Night for the PC is dropped by which enemy with the word \"armor\" in its name?",
+      "target": "Lance Armor ",
+      "predicted": "(PC)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What were the names of the two streets at the intersection where the Sydenham Hospital in New York was originally located?",
+      "target": "124th Street and Manhattan Avenue",
+      "predicted": "What were the names of the two streets at the intersection where the Sydenham Hospital in New York was originally located?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What cabinet position did Sir Hector-Louis Langevin hold in 1870?",
+      "target": "Minister of Public Works",
+      "predicted": "He was a member of the Legislative Assembly of Quebec from 1870 to 1874. He was a member of the Legislative Assembly of Quebec from 1870 to 1874. He was a member of the Legislative Assembly of Quebec from 1870 to 1874. He was a member of the Legislative",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who is known to be the longest-serving premier in the history of the USSR?",
+      "target": "Alexei Kosygin",
+      "predicted": "Who was the first Soviet leader to be elected to the post of the President of the Russian Federation? Who was the first Soviet leader to be elected to the post of the President of the Russian Federation? Who was the first Soviet leader to be elected to the post of the President of the Russian Federation? Who was the first",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "As of 2022, what year did the Centro Bot\u00edn Centre in Spain have the exhibition named 'Amigos'?",
+      "target": "2019",
+      "predicted": "The exhibition was held in 2019.",
+      "grade": "CORRECT"
+    },
+    {
+      "question": "How many degrees was the Rattler's maximum vertical angle at Six Flags Fiesta Texas?",
+      "target": "61.4",
+      "predicted": "(a) 90\u00b0 (b) 180\u00b0 (c) 270\u00b0 (d) 360\u00b0",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What is the name of the CIA project whose user guide was published by WikiLeaks on 10 August 2017?",
+      "target": "CouchPotato",
+      "predicted": "(Choose the correct answer.)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Which state of India was awarded the international honor for afforestation efforts at COP-28?",
+      "target": "Bihar",
+      "predicted": "(2023)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Which Indian state is also known as Veer Bhumi?",
+      "target": "Himachal Pradesh",
+      "predicted": "(Choose the correct option)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "From what year to what year was Muhammad Ayub Sheikh, who was a Pakistani politician, first a member of the National Assembly of Pakistan?",
+      "target": "2008-2013",
+      "predicted": "He was first elected in 1988. He was a member of the National Assembly of Pakistan from 1988 to 1993. He was a member of the National Assembly of Pakistan from 1993 to 1996. He was a member of the National Assembly of Pakistan from 1996 to 200",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Who won the second set in the match between Jaume Munar and Stefanos Tsitsipas in the 2020 French Open Men's Singles?",
+      "target": "Jaume Munar",
+      "predicted": "The match ended in a 6-3, 6-3, 6-3 win for Jaume Munar. The match was played on 11th June 2020.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "According to the 2011 Nepal census, what percentage of the population of Nepal speaks Urdu?",
+      "target": "2.61%",
+      "predicted": "(a) 0.1% (b) 0.2% (c) 0.3% (d) 0.4%",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "On which day and month of 1956 was a letter sent to Dr. Rajendra Prasad, President of the Indian Union, by A.C. Bhaktivedanta, also known as A.C. Bhaktivedanta Swami Prabhupada?",
+      "target": "21 November",
+      "predicted": "(a) 1st April, 1956 (b) 1st May, 1956 (c) 1st June, 1956 (d) 1st July, 1956",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In what year was Celia Hoyles appointed Professor of Mathematical Education at the Institute of Education, University of London?",
+      "target": "1984.",
+      "predicted": "(2010)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Name the first Indian artist to travel abroad for the purpose of studying printmaking as an art.",
+      "target": " Mukul Dey ",
+      "predicted": "He was a contemporary of the great Indian artist M. F. Husain.",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who was the 3rd CEO of Lumon Industries in the show \"Severance\"?",
+      "target": "Myrtle Eagan",
+      "predicted": "He was the CEO of Lumon Industries in the show \"Severance\" and he was the third CEO of Lumon Industries. He was played by the actor John Rhys-Davies.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In which year did the Japanese scientist Koichi Mizushima receive the Kato Memorial Prize?",
+      "target": "1999",
+      "predicted": "(Kato Memorial Prize is awarded every year to a scientist who has made a significant contribution to the field of chemistry.)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Within plus or minus one minute, when did Rober Pier receive a yellow card in the La Liga match between Levante and Real Sociedad on May 6, 2022?",
+      "target": "52nd minute",
+      "predicted": "The answer is 1:00:00.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What is the name of the sculpture Louise Bourgeois created in 1955?",
+      "target": "One and Others",
+      "predicted": "2019-02-26",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What day, month, and year was the album \"Beauty Marks\" by Ciara released on CD in Japan?",
+      "target": "June 5, 2019",
+      "predicted": "I'm trying to find out when the album was released in Japan, and I'm trying to find out when the album was released in Japan, and I'm trying to find out when the album was released in Japan, and I'm trying to find out when the album was released in Japan, and I'm trying to",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What day, month, and year was the dungeon Dire Maul originally added to the game \"World of Warcraft\"?",
+      "target": "7 March 2005",
+      "predicted": "The dungeon was added to the game on 2005-04-28.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Anselm Kiefer had his first solo exhibition at the Neue Nationalgalerie in Berlin in what year?",
+      "target": "1991",
+      "predicted": "(1964)",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What year was Jerry Lee Lewis's 13th album released on Mercury Records?",
+      "target": "1970",
+      "predicted": "The album was released in 1966. It was the 13th album released by Jerry Lee Lewis. The album was released on Mercury Records. The album was released on Mercury Records. The album was released on Mercury Records. The album was released on Mercury Records. The album was released on Mercury Records. The album",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Which African country was the first to introduce shared parental leave?",
+      "target": "South Africa",
+      "predicted": "(Choose all that apply)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What is the name (first and last) of the 11th President of the University of Northern Iowa?",
+      "target": "Mark A. Nook",
+      "predicted": "(1) John A. Andrew (2) John A. Andrew, Jr. (3) John A. Andrew, Jr. (4) John A. Andrew, Jr. (5) John A. Andrew, Jr. (6) John A. Andrew, Jr. (7) John A. Andrew",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "In what year did Dennis Ichiyama become the designer-in-residence at the Hamilton Wood Type and Printing Museum in Two Rivers, Wisconsin, working with historic wood type?",
+      "target": "1999",
+      "predicted": "He was hired in 2006, and he has been there ever since. He has been working with the museum\u2019s collection of historic type, and he has been working with the museum\u2019s collection of historic type, and he has been working with the museum\u2019s collection of historic type, and he has been working with the",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "When was the exact day, month, and year the FPT University was founded?",
+      "target": "September 8, 2006",
+      "predicted": "The exact date of the founding of the FPT University is 1995. The exact date of the founding of the FPT University is 1995. The exact date of the founding of the FPT University is 1995. The exact date of the founding of the FPT University is 1995.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What year was the municipality of T\u00e1mesis, Antioquia, Colombia, founded?",
+      "target": "1858",
+      "predicted": "What year was the municipality of T\u00e1mesis, Antioquia, Colombia, founded?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What's the official motto of the Austrian Decoration for Science and Art?",
+      "target": "Litteris et Artibus",
+      "predicted": "The motto of the Austrian Decoration for Science and Art is \"Science and Art for the benefit of mankind\". The motto of the Austrian Decoration for Science and Art is \"Science and Art for the benefit of mankind\". The motto of the Austrian Decoration for Science and Art is \"Science and Art for the benefit of mankind\". The",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "What is the forest cover area of Andhra Pradesh in square kilometers, according to the India State of Forest Report 2019?",
+      "target": "29,137.40",
+      "predicted": "Answer: 1, 00, 000 sq. km.",
+      "grade": "INCORRECT"
+    },
+    {
+      "question": "Before the New 52, who murdered the supervillain Monsieur Mallah?",
+      "target": "Gorilla Grodd",
+      "predicted": "The answer is revealed in this issue of Batman: The Dark Knight! Plus, the return of the Joker!",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "In which year did the United States Defense Health Agency first approve payment for sex reassignment surgery for an active-duty U.S. military service member?",
+      "target": "2017",
+      "predicted": "(a) 2014 (b) 2015 (c) 2016 (d) 2017",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What species of Polymixia fish is named after research scientist Gloria Hollister?",
+      "target": "Polymixia hollisterea",
+      "predicted": "(2019)",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who was the first MVP woman player in the VNL tournament?",
+      "target": "Michelle Bartsch-Hackley",
+      "predicted": "Who was the first MVP woman player in the VNL tournament?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "The book \"Rhine\" by Anselm Kiefer is from what year?",
+      "target": "1981.",
+      "predicted": "The book \"Rhine\" by Anselm Kiefer is from what year?",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "What GPU does the Lumia 550 have?",
+      "target": "Qualcomm Adreno 304.",
+      "predicted": "The Lumia 550 has a Qualcomm Snapdragon 210 processor. This processor is a 64-bit processor. This processor is a 64-bit processor. This processor is a 64-bit processor. This processor is a 64-bit processor. This processor is a 64-bit processor. This processor is a 64-bit",
+      "grade": "NOT_ATTEMPTED"
+    },
+    {
+      "question": "Who received the IEEE Frank Rosenblatt Award in 2010?",
+      "target": "Michio Sugeno",
+      "predicted": "The IEEE Frank Rosenblatt Award is given to an individual for outstanding contributions to the field of adaptive control. The award is named after the pioneer of adaptive control, Frank Rosenblatt. The award is given every two years. The award is given to an individual for outstanding contributions to the field of adaptive control. The",
+      "grade": "NOT_ATTEMPTED"
+    }
+  ]
+}
