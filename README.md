@@ -3,8 +3,8 @@ Replication of Meta's [Active Reading](https://arxiv.org/abs/2508.09494) fine-tu
 
 ## What's here
 - `active_reading_training.py` — fine-tunes a base model with LoRA on `facebook/meta-active-reading`
-- `eval_simpleqa.py` — evaluates closed-book factual recall 
-- `active_reading.ipynb` — initial exploration notebook with visualizations
+- `active_reading_eval_simple_qa.py` — evaluates closed-book factual recall 
+- `notebooks/active_reading.ipynb` — initial exploration notebook with visualizations
 
 ## Setup
 make a .env file and add HF_TOKEN, OPENAI_API_KEY, WANDB_API_KEY
